@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsentService", "ConsentService\src\ConsentService.csproj", "{CC4C39FC-6F3F-4126-A4DA-45136B79207F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementService", "ManagementService\src\ManagementService.csproj", "{A21FF338-EA3E-448E-8EB1-46E16E65E856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientService", "PatientService\src\PatientService.csproj", "{6E3BE2AA-677D-4198-AC34-AB4E734A3640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25B6C6D1-C35F-45E2-B28B-B435C7D6D05D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{6D6AE07E-D40C-4203-AE6D-6B13E99D5771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsentService.Messages", "Contracts\ConsentService.Messages\ConsentService.Messages.csproj", "{F192BEAD-DA5E-491C-832F-F9AA59D8CB42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementService.Messages", "Contracts\ManagementService.Messages\ManagementService.Messages.csproj", "{6CE2CA7D-DE42-4079-90BD-D610E624A261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientService.Messages", "Contracts\PatientService.Messages\PatientService.Messages.csproj", "{980A501E-3431-4354-8187-3740A3D6323B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4C39FC-6F3F-4126-A4DA-45136B79207F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4C39FC-6F3F-4126-A4DA-45136B79207F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4C39FC-6F3F-4126-A4DA-45136B79207F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4C39FC-6F3F-4126-A4DA-45136B79207F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21FF338-EA3E-448E-8EB1-46E16E65E856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21FF338-EA3E-448E-8EB1-46E16E65E856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21FF338-EA3E-448E-8EB1-46E16E65E856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21FF338-EA3E-448E-8EB1-46E16E65E856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3BE2AA-677D-4198-AC34-AB4E734A3640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3BE2AA-677D-4198-AC34-AB4E734A3640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3BE2AA-677D-4198-AC34-AB4E734A3640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3BE2AA-677D-4198-AC34-AB4E734A3640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F192BEAD-DA5E-491C-832F-F9AA59D8CB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F192BEAD-DA5E-491C-832F-F9AA59D8CB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F192BEAD-DA5E-491C-832F-F9AA59D8CB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F192BEAD-DA5E-491C-832F-F9AA59D8CB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE2CA7D-DE42-4079-90BD-D610E624A261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE2CA7D-DE42-4079-90BD-D610E624A261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE2CA7D-DE42-4079-90BD-D610E624A261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE2CA7D-DE42-4079-90BD-D610E624A261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980A501E-3431-4354-8187-3740A3D6323B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980A501E-3431-4354-8187-3740A3D6323B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980A501E-3431-4354-8187-3740A3D6323B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980A501E-3431-4354-8187-3740A3D6323B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC4C39FC-6F3F-4126-A4DA-45136B79207F} = {25B6C6D1-C35F-45E2-B28B-B435C7D6D05D}
+		{A21FF338-EA3E-448E-8EB1-46E16E65E856} = {25B6C6D1-C35F-45E2-B28B-B435C7D6D05D}
+		{6E3BE2AA-677D-4198-AC34-AB4E734A3640} = {25B6C6D1-C35F-45E2-B28B-B435C7D6D05D}
+		{F192BEAD-DA5E-491C-832F-F9AA59D8CB42} = {6D6AE07E-D40C-4203-AE6D-6B13E99D5771}
+		{6CE2CA7D-DE42-4079-90BD-D610E624A261} = {6D6AE07E-D40C-4203-AE6D-6B13E99D5771}
+		{980A501E-3431-4354-8187-3740A3D6323B} = {6D6AE07E-D40C-4203-AE6D-6B13E99D5771}
+	EndGlobalSection
+EndGlobal
